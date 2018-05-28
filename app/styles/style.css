@@ -1,0 +1,122 @@
+.periodButton{
+	display: inline;
+	margin: 2px;
+}
+
+.fixed{
+	position: fixed;
+	top: 0px;
+	padding-left:0;
+	padding-right: 0;
+}
+
+
+.ui-state-highlight{
+	background: #a1e19b;
+}
+
+#header{
+	margin-left: 11px;
+	color: black;
+}
+
+#header a:hover{
+	text-decoration: underline;
+	color:black;
+}
+
+#creditsOverview{
+	border-width: 0px;
+	border-color: #ddd;
+	border-style: solid;
+	border-radius: 0px 0px 3px 3px;
+	padding: 1em;
+	background-color: #f9f9f9;
+}
+
+.progress-bar{
+	background-color: #42CA52;
+}
+
+#summary ul{
+	list-style: none;
+}
+#summary li{
+	display: inline;
+	padding-right: 4em;
+	margin-left: -3em;
+}
+
+
+
+#info{
+	border-width: 0.2em;
+	border-color: black;
+	border-style: solid;
+	padding: 0.4em;
+}
+
+#welcomePage{
+	margin-top: 8em;
+	text-align: center;
+}
+
+#courses{
+	padding: 0.5em;
+}
+
+#coursesummary ul{
+	list-style: none;
+	
+}
+
+#csn{
+	color:#FFFFFF;
+	background-color: #D70000;
+	padding: 0.5em;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+#alert{
+	cursor: pointer;
+}
+
+body{
+	background-image: url("http://cloth5.com/wp-content/themes/gonzo/images/backgrounds/tactile_noise.png");
+}
+
+#right {
+
+	background-color: #f9f9f9;
+	border-width: 0px;
+	border-color: #ddd;
+	border-style: solid;
+	border-radius: 3px 3px 3px 3px;
+	margin-top:1em;
+	margin-bottom:10em;
+	float:right;
+}
+
+#TEST{
+	overflow: scroll;
+	height: 500px;
+}
+
+#select{
+	width:auto;
+	display:inline;
+}
+
+#left {
+	padding-top:1em;
+	padding-left:0;
+}
+.btn {
+	padding: 2px 6px;
+}
+
+
+/*UI Bootstrap fix*/
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+

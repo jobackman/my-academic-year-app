@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
+<head>
+	<title>My Academic Year</title>
+	
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app/styles/style.css">
+
+</head>
+<body>
+
+	<!-- The content of the page is dynamically added -->
+	<div ng-view></div>
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+
+
+    <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    
+    <!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular.min.js" type="text/javascript"></script>
+    <script src="app/scripts/angular-route.js" type="text/javascript"></script>
+
+
+	<!-- UI Bootstrap, source link: http://angular-ui.github.io/bootstrap/  -->
+	<script src="app/scripts/ui-bootstrap-tpls-0.10.0.min.js" type="text/javascript"></script>
+    
+    
+    <!-- app & controllers-->
+    <script src="app/app.js" type="text/javascript"></script>
+	<script src="app/services/coursesService.js" type="text/javascript"></script>
+	<script src="app/controllers/WelcomeController.js" type="text/javascript"></script>
+	<script src="app/controllers/CoursesController.js" type="text/javascript"></script>
+	<script src="app/controllers/CreditsMenuController.js" type="text/javascript"></script>
+	<script src="app/controllers/PeriodController.js" type="text/javascript"></script>
+	<script src="app/controllers/ProgressBarController.js" type="text/javascript"></script>
+	<script src="app/controllers/WelcomeController.js" type="text/javascript"></script>
+	<script src="app/controllers/SemesterController.js" type="text/javascript"></script>
+	<script src="app/controllers/AlertController.js" type="text/javascript"></script>
+	<script src="app/controllers/DragDropController.js" type="text/javascript"></script>
+	<script src="app/scripts/angular-dragdrop.min.js"></script>
+	<script src="app/scripts/fixed-div.js"></script>
+	
+</body>
+</html>

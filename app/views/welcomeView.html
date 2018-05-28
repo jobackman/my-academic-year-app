@@ -1,0 +1,28 @@
+<div class="container" id='content' ng-app='MyApp' ng-controller='WelcomeController'>		
+		<!-- By: Calle & Anna 2014-03-04. Johan Bäckman 2014-03-17. -->
+    
+	<div class="jumbotron" id="welcomePage">
+		<h1> Welcome to My Academic Year </h1>
+		
+		<hr />
+		
+		<p>Choose your master: </p>
+		
+		<!-- Selects the title of each master -->
+		<select id="select" class="form-control" ng-model='selectedMaster' ng-options='obj.title for obj in masters'></select>
+		<!-- Selects the track codes that are included in the chosen master -->
+		<select id="select" class="form-control" ng-model='selectedTrack' ng-options='obj.trackCode for obj in masters[index].specialisation'></select>
+
+		
+		<br/><br/>
+		<!-- This is for the routing. We send selectedMaster and selectedTrack so it can be reached by other controllers. Routing is set up in app.js -->
+		<a href="#/MainView/">
+			<button type="button" class="btn btn-success" ng-click="setMaster(selectedMaster); setTrack(selectedTrack)">Move On</button>
+		</a>
+	
+
+		
+	</div>
+	
+		<!-- HÄR SLUTAR CONTAINER-->
+</div>
